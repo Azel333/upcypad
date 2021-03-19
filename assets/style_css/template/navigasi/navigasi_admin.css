@@ -1,0 +1,29 @@
+#navigasi {
+	background-color: rgba(43,238,43, .2)!important;
+	font-size: 12px;
+	position: absolute;
+	left: 0px;
+	width: 100vw;
+}
+
+#contain-sidebar {
+	position: absolute;
+	top: 60px;
+	left: -40px;
+	width: 280px;
+}
+
+#contain-profile {
+	position: absolute;
+	top: 60px;
+	right: 0;
+	width: 210px;
+}
+#contain-sidebar li{
+	list-style: none;
+}
+#sub-menu {
+	margin-left: -50px;
+	font-size: 12px;
+	color: green;
+}

@@ -1,0 +1,81 @@
+#contain-artikel
+{
+	position: relative;
+	top: 80px;
+}
+
+.card
+{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.14);
+	border-radius: 6px;
+	background: #fff;
+	color: rgba(0,0,0, 0.87);
+}
+
+.mainflip
+{
+	-moz-transform: perspective(1000px);
+	transition: 1s;
+	transform-style: preserve-3d;
+	position: relative;
+}
+
+.frontside,
+.backside
+{
+	backface-visibility: hidden;
+	transition: 1s;
+	transform-style: preserve-3d;
+}
+
+.frontside
+{
+	position: relative;
+	-webkit-transform: rotateY(0deg);
+	z-index: 2;
+	margin-bottom: 30px;
+}
+
+.frontside .card,
+.backside .card
+{
+	min-height: 312px;
+}
+
+.frontside .card .card-body img
+{
+	width: 120px;
+	height: 120px;
+	border-radius: 50%;
+}
+
+.frontside .card .card-title
+{
+	color: #007b5e !important;
+}
+
+.backside
+{
+	position: absolute;
+	top: 0;
+	left: 0;
+	background: white;
+	transform: rotateY(-180deg);
+	box-shadow: 5px 7px 9px -4px rgb(158, 158, 158);
+}
+
+.image-flip:hover .backside,
+.image-flip.hover .backside
+{
+	transform: rotateY(0deg);
+	border-radius: .25rem;
+}
+
+.image-flip:hover .frontside,
+.image-flip.hover .frontside
+{
+	transform: rotateY(180deg);
+}

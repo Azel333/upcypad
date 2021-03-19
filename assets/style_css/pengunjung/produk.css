@@ -1,0 +1,36 @@
+#contain-artikel {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	top: 80px;
+	left: -8px;
+}
+#contain-artikel .card {
+	width: 200px;
+}
+.card-desk-body {
+	position: relative;
+	top: -50px;
+	margin-left: 20px;
+	height: 20px;
+}
+.back-artikel img{
+	width: 100vw;
+	height: 100vh;
+}
+.harga-asli {
+	text-decoration: line-through;
+}
+.diskon {
+	position: absolute;
+	bottom: -5px;
+	right: 20px;
+}
+.card-head-body {
+	position: relative;
+	top: -15px;
+}
+.card-head-body hr {
+	position: relative;
+	top: -10px;
+}

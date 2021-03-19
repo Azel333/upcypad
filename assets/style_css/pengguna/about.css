@@ -1,0 +1,131 @@
+#page-contents
+{
+	padding: 30px 0 50px;
+}
+
+h4.grey
+{
+	color: #6d6e71;
+	margin: 0 auto 20px;
+	font-size: 18px;
+}
+
+ul.edit-menu.halaman
+{
+	padding: 0 20px;
+}
+
+ul.edit-menu.menu
+{
+	padding: 0 20px;
+	margin-top: 6.3rem;
+}
+
+ul.edit-menu li
+{
+	list-style: none;
+	border-bottom: 1px solid #8dc63f;
+	padding: 15px 0;
+	position: relative;
+}
+
+ul.edit-menu li.active::before
+{
+	content: "";
+	background: #8dc63f;
+	width: 2px;
+	height: 40px;
+	position: absolute;
+	top: 50%;
+	left: -20px;
+	transform: translate(-50%,-50%);
+}
+
+ul.edit-menu li a
+{
+	color: #6d6e71;
+	margin-left: 20px;
+}
+
+ul.edit-menu li.active a
+{
+	color: #8dc63f;
+}
+
+ul.edit-menu li.active i
+{
+	color: #8dc63f;
+}
+
+.edit-profile-container h4 i
+{
+	margin-right: 15px;
+	color: #27aae1;
+}
+
+.edit-block
+{
+	margin-bottom: 30px;
+}
+
+.edit-block .form-group
+{
+	margin-bottom: 15px;
+}
+
+.edit-block select.form-control
+{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	appearance: none;
+}
+
+.edit-block .btn-primary
+{
+	width: 100%;
+}
+
+.static
+{
+	position: static;
+}
+
+.row.profil .fileinput-preview img
+{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	max-width: none;
+	padding: .25rem;
+	background-color: #fafafa;
+	border: 1px solid #dee2e6;
+	box-shadow: 0 1px 2px rgba(0,0,0,.075);
+}
+
+.row .fileinput .fileinput-preview.image_back img
+{
+	height: 21rem;
+	width: 100%;
+	min-height: 21rem;
+	min-width: 756.917px;
+}
+
+.row.profil.fileinput-new .fileinput-new img
+{
+	width: 200px;
+	height: 200px;
+	max-width: none;
+}
+
+.custom-file .margin
+{
+	margin-top: 112px;
+}
+
+.fileinput .img-thumbnail
+{
+	height: 21rem;
+	width: 100%;
+	min-height: 21rem;
+	min-width: 756.917px;
+}

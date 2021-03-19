@@ -1,0 +1,7 @@
+#contain-roleaccess {
+	position: relative;
+}
+
+#contain-roleaccess td,th {
+	font-size: 11px;
+}

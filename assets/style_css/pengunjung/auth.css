@@ -1,0 +1,29 @@
+.container-fluid.auth
+{
+	position: relative;
+	top: 60px;
+}
+
+.btn.btn-raised.btn-block.btn-info
+{
+	padding: 7px 25px;
+	border: none;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	outline: none;
+	border-radius: 30px;
+}
+
+h5 strong
+{
+	color: #27aae1;
+}
+
+.card.border.border-info
+{
+	box-shadow: 0 0 35px rgba(0,0,0, .4);
+	border-radius: 6px;
+}

@@ -1,0 +1,29 @@
+.list-submenu
+{
+	list-style: none;
+	position: relative;
+	right: 20px;
+}
+#sub-menu
+{
+	width: auto;
+}
+.list-menu
+{
+	list-style: none;
+	float: right;
+}
+#contain-profile
+{
+	position: relative;
+	width: 210px;
+}
+.UPLOAD #contain-profile , .TOKO #contain-profile
+{
+	display: none;
+}
+.icon-notifikasi
+{
+	position: relative;
+	right: -30px;
+}

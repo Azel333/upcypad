@@ -1,0 +1,9 @@
+#contain-produk {
+	height: 100vh;
+	display: flex;
+	align-content: space-around;
+}
+
+#contain-left {
+	height: 612px;
+}

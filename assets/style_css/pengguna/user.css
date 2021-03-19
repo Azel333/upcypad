@@ -1,0 +1,60 @@
+body
+{
+	background-color: #EEEEEE;
+}
+
+.card-profile
+{
+	text-align: center;
+}
+
+.card-avatar
+{
+	max-width: 130px;
+	max-height: 130px;
+	margin: -50px auto 0;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 10px 30px -12px rgba(0, 0, 0, 0.42),
+				0 4px 25px 0px rgba(0, 0, 0, 0.12),
+				0 8px 10px -5px rgba(0, 0, 0, 0.2);
+}
+
+a
+{
+	color: #337ab7;
+	text-decoration: none;
+}
+
+.card img
+{
+	width: 100%;
+	height: auto;
+}
+
+.card-content
+{
+	margin-top: 15px;
+}
+
+.card .card-title
+{
+	margin-top: 0;
+	margin-bottom: 3px;
+}
+
+.card-title
+{
+	color: #3C4858;
+	text-decoration: none;
+}
+
+.description
+{
+	color: #999999;
+}
+
+.rounded
+{
+	border-radius: 10px !important;
+}

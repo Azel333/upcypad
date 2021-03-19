@@ -1,0 +1,23 @@
+.TOKO {
+	background-color: red;
+}
+.USER {
+	background-color: blue;
+}
+.UPLOAD {
+	background-color: green;
+}
+.list-submenu{
+	list-style: none;
+}
+.list-menu{
+	list-style: none;
+	float: right;
+}
+#contain-profile {
+	position: relative;
+	width: 210px;
+}
+.UPLOAD #contain-profile ,.TOKO #contain-profile  {
+	display: none;
+}

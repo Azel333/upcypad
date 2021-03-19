@@ -1,0 +1,54 @@
+#contain-artikel {
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	position: absolute;
+	top: 80px;
+}
+#contain-artikel .card {
+	width: 250px;
+}
+.back-artikel img{
+	width: 100vw;
+	height: 100vh;
+}
+
+#contain-artikel .card-desk-body {
+	position: relative;
+	top: -45px;
+}
+
+#contain-artikel .card-head-body {
+	position: relative;
+	top: -10px;
+}
+
+
+#contain-artikel .card-body hr{
+	position: relative;
+	top: -10px;
+	width: 112%;
+	left: -14px;
+}
+
+.icon-artikel {
+	position: absolute;
+	bottom: 50px;
+	left: -3px;
+}
+.icon-artikel li{
+	list-style: none;
+	display: inline-block;
+	background-color: rgba(0,0,0, .5);
+	height: 35px;
+	width: 35px;
+	border-radius: 50%;
+	margin-right: 30px;
+}
+
+.icon-artikel li i {
+	position: relative;
+	top: 40%;
+	left: -10%;
+	transform: translate(-50%, -50%);
+}

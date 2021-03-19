@@ -1,0 +1,26 @@
+#navigasi {
+	background-color: rgba(43,238,43, .2)!important;
+	font-size: 12px;
+	position: absolute;
+	left: 0px;
+	width: 100vw;
+}
+#navigasi button {
+	color: white;
+}
+.fa-search {
+	font-size: 16px;
+}
+#search {
+	position: absolute;
+	left: 340px; 
+}
+
+#search .btn {
+	position: absolute;
+	left: -40px;
+}
+
+#search input{
+	width: 300px;
+}

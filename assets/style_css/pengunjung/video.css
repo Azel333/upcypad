@@ -1,0 +1,29 @@
+.img-video img{
+	width: 210px;
+	height: 200px;
+}
+
+#contain-video {
+	position: relative;
+	top: 80px;
+}
+
+.img-video .icon{
+	background-color: rgba(238,0,0, .7);
+	position: absolute;
+	display: block;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.img-video .icon i{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	color: white;
+}

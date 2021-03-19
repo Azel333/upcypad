@@ -1,0 +1,189 @@
+.row.profil .fileinput-preview img
+{
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	max-width: none;
+	padding: .25rem;
+	background-color: #fafafa;
+	border: 1px solid #dee2e6;
+	box-shadow: 0 1px 2px rgba(0,0,0,.075);
+}
+
+.row .fileinput .fileinput-preview.image_back img
+{
+	height: 21rem;
+	width: 100%;
+	min-height: 21rem;
+	min-width: 756.917px;
+}
+
+.row.profil.fileinput-new .fileinput-new img
+{
+	width: 200px;
+	height: 200px;
+	max-width: none;
+}
+
+.fileinput .img-thumbnail
+{
+	height: 21rem;
+	width: 100%;
+	min-height: 21rem;
+	min-width: 1110px;
+	border-radius: 10px;
+}
+
+#map_canvas
+{
+	height: 300px;
+}
+
+.btn-info, .btn-raised, .btn-outline-info
+{
+	background: #27aae1;
+	padding: 7px 25px;
+	border: none;
+	font-size: 14px;
+	border-radius: 4px;
+	color: #fff;
+	position: relative;
+	font-weight: 600;
+	outline: none;
+	border-radius: 30px;
+}
+
+.btn-info:hover
+{
+	background: #149AC9;
+	transition: all 1s;
+}
+
+div.card
+{
+	border: 0;
+	margin-bottom: 30px;
+	margin-top: 30px;
+	border-radius: 6px;
+	color: rgba(0,0,0,.87);
+	width: 100%;
+}
+
+div.card.card-plain
+{
+	background: transparent;
+	box-shadow: none;
+}
+
+div.card .card-header
+{
+	border-radius: 3px;
+	padding: 1rem 15px;
+	border: 0;
+}
+
+.card-plain .card-header:not(.card-avatar)
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.div.card .card-body
+{
+	padding: 15px 30px;
+}
+
+div.card .card-header-danger
+{
+	background: linear-gradient(60deg,#ef5350,#d32f2f);
+	box-shadow: 0 5px 20px 0 rgba(0,0,0,.2), 0 13px 24px -11px rgba(244,67,54,.6);
+}
+
+.card-nav-tabs .card-header
+{
+	margin-top: -30px!important;
+}
+
+.card .card-header .nav-tabs
+{
+	padding: 0;
+}
+
+.nav-tabs
+{
+	border: 0;
+	border-radius: 3px;
+}
+
+.nav
+{
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 0;
+	list-style: none;
+}
+
+.nav-tabs .nav-item
+{
+	margin-bottom: -1px;
+}
+
+.nav-tabs .nav-item .nav-link.active
+{
+	background-color: hsla(0,0%,100%,.2);
+	transition: background-color .3s .2s;
+}
+
+.nav-tabs .nav-item .nav-link
+{
+	border: 0!important;
+	color: #fff!important;
+	font-weight: 500;
+}
+
+.nav-tabs .nav-item .nav-link
+{
+	margin: 0;
+	border-radius: 3px;
+	line-height: 24px;
+	text-transform: uppercase;
+	font-size: 12px;
+	padding: 10px 15px;
+}
+
+.nav-link
+{
+	display: block;
+}
+.nav .nav-item
+{
+	position: relative;
+}
+
+.btn-pink-moon,
+.btn-cool-blues,
+.btn-funky-moon
+{
+	color: #fff;
+	border: #eee;
+}
+
+.btn-pink-moon
+{
+	background: linear-gradient(to right, #fc6767, #ec008c);
+}
+
+.btn-cool-blues
+{
+	background: linear-gradient(to right, #6dd5ed, #2193b0);
+}
+
+.btn-funky-moon
+{
+	background: linear-gradient(145deg, #FDB99B, #CF8BF3, #A770EF);
+}
+
+.btn-rounded
+{
+	border-radius: 35px;
+}
